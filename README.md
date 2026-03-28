@@ -1,4 +1,4 @@
-# 🚀 Antigravity Kit v2.1
+# 🚀 Antigravity Kit v3.0
 
 > [!NOTE]
 > **Português:** Este é um conjunto avançado de ferramentas e habilidades para Agentes de IA, projetado para expandir as capacidades de codificação, arquitetura e segurança.

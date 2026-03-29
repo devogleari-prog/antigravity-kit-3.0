@@ -11,13 +11,31 @@
 
 **Antigravity Kit** is a modular system consisting of:
 - **20 Specialist Agents** - Role-based AI personas.
-- **51 Skills** - Domain-specific knowledge modules.
+- **52 Skills** - Domain-specific knowledge modules.
 - **11 Workflows** - Slash command procedures.
+
+---
+
+## 🆕 What's New in Version 3.0
+
+Kit v3.0 represents a significant leap in security, stability, and bilingual usability.
+
+### 🛡️ Advanced Security Audit (OWASP 2025)
+- **`skills-analiser` Integration**: New specialized auditor agent for code and logic security.
+- **Full Audit**: All 52 skills have undergone a rigorous security audit process (OWASP 2025).
+- **Data Protection**: Validation scripts now include checks against data exfiltration and prompt injection.
+
+### 🌐 Connectivity and Infrastructure
+- **DNS Optimization**: Fixed host resolution protocol in the Linux Mint environment.
+- **Native Bilingual Support**: The kit now prioritizes Portuguese-BR as the default documentation while maintaining parity with the English version.
+- **Transparent Repo Structure**: Migrated from hidden `.agent/` to visible `antigravity-kit/` on GitHub.
+
+---
 
 ### 🤖 Specialist Agents (20)
 Including: `orchestrator`, `project-planner`, `frontend-specialist`, `security-auditor`, `database-architect`, and more.
 
-### 🧩 Skills (51)
+### 🧩 Skills (52)
 Modular knowledge domains like: `nextjs-react-expert`, `vulnerability-scanner`, `api-patterns`, `clean-code`, `rust-pro`, `bash-linux`, etc.
 
 ---
@@ -28,7 +46,7 @@ Modular knowledge domains like: `nextjs-react-expert`, `vulnerability-scanner`, 
 antigravity-kit/
 ├── ARCHITECTURE.md          # Full architectural details
 ├── agents/                  # 20 Specialist Agents
-├── skills/                  # 51 Skills
+├── skills/                  # 52 Skills
 ├── workflows/               # 11 Slash Commands
 ├── rules/                   # Global Rules
 └── scripts/                 # Master Validation Scripts
@@ -40,7 +58,7 @@ antigravity-kit/
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/USER_NAME/antigravity-kit.git
+    git clone https://github.com/devogleari-prog/antigravity-kit-3.0.git
     ```
 2.  **Explore the skills:**
     Navigate to `antigravity-kit/skills/` to see available modules.

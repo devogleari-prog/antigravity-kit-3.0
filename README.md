@@ -30,6 +30,19 @@ O Kit v3.0 representa um salto significativo em segurança, estabilidade e usabi
 
 ---
 
+## 📊 Comparativo: v2.1 (Original) vs v3.0
+
+| Recurso | Antigravity Kit v2.1 | Antigravity Kit v3.0 |
+| :--- | :--- | :--- |
+| **Total de Skills** | 51 Skills | 52 Skills (+ `skills-analiser`) |
+| **Foco em Segurança** | Padrão (Especialistas básicos) | Avançado (Conformidade OWASP 2025) |
+| **Idioma Oficial** | Apenas Inglês | Bilíngue (PT-BR como padrão) |
+| **Estrutura de Pasta** | `.agent/` (Oculta) | `antigravity-kit/` (Visível) |
+| **Auditoria de Código** | Reativa | Proativa (Agente de Auditoria Especializado) |
+| **Estabilidade de Rede** | Dependente do OS | DNS e Host Resolution Internos |
+
+---
+
 ### 🤖 Agentes Especialistas (20)
 Incluindo: `orchestrator` (orquestrador), `project-planner` (planejador de projeto), `frontend-specialist` (especialista frontend), `security-auditor` (auditor de segurança), `database-architect` (arquiteto de banco de dados), e mais.
 
